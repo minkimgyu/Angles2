@@ -26,8 +26,8 @@ Unity를 사용하여 개발한 캐주얼 모바일 2D 게임입니다.
 - ✅ **챕터 모드 전용 A\* 길찾기 알고리즘 개발 및 적용**
 - ✅ **서바이벌 모드 최적화를 위한 JPS+ 길찾기 알고리즘 개발 및 적용**
 - ✅ **Strategy Pattern을 활용한 무기, 스킬 시스템 개발**
-- ✅ **커스텀 에디터를 활용한 스테이지 에디터 개발**
 - ✅ **Visitor Pattern을 활용한 업그레이드 시스템 개발**
+- ✅ **커스텀 에디터를 활용한 스테이지 에디터 개발**
 - ✅ **Google Play services SDK 연동 및 구글 로그인, 인앱 업데이트, 클라우드 저장 적용**
 - ✅ **Google AdMob SDK를 연동하여 수익 창출을 위한 광고 적용** 
 
@@ -168,6 +168,16 @@ JPS+ 알고리즘을 적용해 요구 성능을 안정적으로 달성함으로�
 ### 스킬 클래스 구조 📜
 
 <img src="https://github.com/user-attachments/assets/464272b2-954c-494a-a193-0349561d3469" alt="Angles Game Screenshot" />
+
+---
+
+## 🛡️ Visitor 패턴을 활용한 업그레이드 시스템 개발
+
+기존 스킬/무기 데이터의 구조 변경 없이도 새로운 업그레이드 기능을 쉽게 추가할 수 있는 구조를 갖추어, 유지보수 및 기능 확장에 유리하도록 구현했습니다.
+
+### Upgrader 클래스 구조 📜
+
+<img src="https://github.com/user-attachments/assets/a4f14449-b3be-46c3-8103-1c10332863c0" alt="Angles Game Screenshot" />
 
 ---
 
